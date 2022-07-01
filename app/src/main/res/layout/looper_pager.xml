@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:clipChildren="false"
+    android:background="#D34861"
+    android:layout_height="match_parent">
+
+    <com.example.looperpager.views.SobViewPagaer
+        android:id="@+id/looper_pager_vp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="match_parent"
+        android:clipChildren="false" />
+    <TextView
+        android:id="@+id/looper_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是标题"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        />
+    <LinearLayout
+        android:id="@+id/looper_point_container_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+</RelativeLayout>
